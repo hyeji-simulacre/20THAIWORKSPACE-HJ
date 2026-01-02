@@ -1,0 +1,29 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Python
+.python-version
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.eggs/
+
+# Environment & Credentials
+.env
+.env.local
+.env.*.local
+token.json
+credentials.json
+client_secret*.json
+
+# IDE
+.vscode/
+.idea/
+
+# PKM Search index
+.pkm-search/
