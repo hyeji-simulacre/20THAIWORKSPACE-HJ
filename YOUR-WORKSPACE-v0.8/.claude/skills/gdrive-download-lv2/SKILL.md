@@ -166,3 +166,39 @@ python .claude/skills/_education_skills/share_gdrive_lv2_eduv/scripts/gdrive_aut
 
 - `credentials.json`과 `token.json`은 절대 공유하지 마십시오.
 - `.gitignore`에 포함되어 있는지 확인하십시오.
+
+---
+
+## 🗂️ 저장 위치 결정 프로세스 (AI 필수 규칙)
+
+> **Google Drive 다운로드는 팀 작업물이므로, 반드시 프로젝트 폴더에 저장합니다.**
+
+### 다운로드 전 필수 질문
+
+```
+Q: 이 Google Drive 자료를 어느 프로젝트에 저장할까요?
+
+[10-working/ 하위 폴더 목록 표시]
+예:
+  1. 10-working/GPTers-20기/
+  2. 10-working/사이드-프로젝트/
+  3. 새 프로젝트 폴더 생성
+
+선택:
+```
+
+### 저장 경로 결정
+
+| 선택 | 저장 경로 |
+|------|----------|
+| 기존 프로젝트 | `10-working/{프로젝트명}/gdrive/` |
+| 새 프로젝트 | `10-working/{새프로젝트명}/gdrive/` (폴더 생성) |
+
+### AI 행동 규칙
+
+1. **다운로드 전**: `10-working/` 하위 폴더 목록 확인
+2. **사용자에게 질문**: "어느 프로젝트에 저장할까요?"
+3. **폴더 없으면**: 새 프로젝트 폴더 생성 제안
+4. **저장 경로**: `10-working/{프로젝트}/gdrive/`
+
+> ⚠️ `.env`의 `GDRIVE_DOWNLOAD_DIR`은 기본값일 뿐, 실제로는 프로젝트 폴더에 저장합니다.

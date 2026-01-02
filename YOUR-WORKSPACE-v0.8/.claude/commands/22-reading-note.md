@@ -33,7 +33,7 @@
 ### Step 2: 파일 생성
 
 1. 파일명: `YYYYMMDD-책제목.md`
-2. 저장 경로: `30-collected/32-readings/`
+2. 저장 경로: `20-created/22-reading-notes/`
 
 ### Step 3: Reading Note 작성
 
@@ -100,7 +100,7 @@ tags:
 ```
 ✅ Reading Note 생성 완료!
 
-📄 파일: 30-collected/32-readings/YYYYMMDD-책제목.md
+📄 파일: 20-created/22-reading-notes/YYYYMMDD-책제목.md
 📚 제목: [책 제목]
 
 "적용 포인트"를 실천해보세요!

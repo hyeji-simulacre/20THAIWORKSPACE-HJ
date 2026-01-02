@@ -27,3 +27,19 @@ client_secret*.json
 
 # PKM Search index
 .pkm-search/
+
+# 환경변수 및 API 키 (절대 커밋 금지!)
+.env
+.env.local
+.env.*
+!.env.example
+!.env.template
+
+# Obsidian 캐시 및 임시 파일 (백업 불필요)
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/cache
+.trash/
+
+# 시스템 파일
+.DS_Store

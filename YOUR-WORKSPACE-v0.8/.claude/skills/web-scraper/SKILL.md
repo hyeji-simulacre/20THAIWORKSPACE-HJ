@@ -201,8 +201,8 @@ Q5: 저장 형식을 선택해주세요
     - 전체
 
 Q6: 저장 위치를 지정할까요?
-    - 기본 위치 사용 (90_temp/91_temp_create_files/)
-    - 직접 지정 (예: 50_resources/뉴스수집/)
+    - 기본 위치 사용 (30-collected/31-web-scraps/)
+    - 직접 지정
 ```
 
 **"알아서 해줘" / "잘 모르겠어" 응답 시 기본값:**
@@ -213,7 +213,7 @@ Q6: 저장 위치를 지정할까요?
 | Q3 | 현재 탭만 | 불필요한 순회 방지 |
 | Q4 | 10개 | 적당한 샘플 크기 |
 | Q5 | Markdown | 가독성 좋음 |
-| Q6 | 90_temp/91_temp_create_files/ | 표준 임시 폴더 |
+| Q6 | 30-collected/31-web-scraps/ | 웹 수집물 기본 폴더 |
 
 > 💡 사용자가 "알아서 해줘"라고 하면 위 기본값을 적용하고, **적용할 기본값을 사용자에게 보여준 후** 진행
 
@@ -311,9 +311,9 @@ python ./90_temp/91_temp_create_files/scrape_{domain}_feed.py     # RSS/Atom
 | 생성 | 스크래핑 스크립트 (Playwright) | `90_temp/91_temp_create_files/scrape_{domain}.py` |
 | 생성 | 스크래핑 스크립트 (정적 HTML) | `90_temp/91_temp_create_files/scrape_{domain}_static.py` |
 | 생성 | 스크래핑 스크립트 (RSS/Atom) | `90_temp/91_temp_create_files/scrape_{domain}_feed.py` |
-| 수집 | 데이터 JSON | `output_dir/{domain}_data_{timestamp}.json` (기본 `90_temp/91_temp_create_files/`) |
-| 수집 | 데이터 CSV | `output_dir/{domain}_data_{timestamp}.csv` (기본 `90_temp/91_temp_create_files/`) |
-| 수집 | 데이터 Markdown | `output_dir/{domain}_data_{timestamp}.md` (기본 `90_temp/91_temp_create_files/`) |
+| 수집 | 데이터 JSON | `output_dir/{domain}_data_{timestamp}.json` (기본 `30-collected/31-web-scraps/`) |
+| 수집 | 데이터 CSV | `output_dir/{domain}_data_{timestamp}.csv` (기본 `30-collected/31-web-scraps/`) |
+| 수집 | 데이터 Markdown | `output_dir/{domain}_data_{timestamp}.md` (기본 `30-collected/31-web-scraps/`) |
 
 ---
 

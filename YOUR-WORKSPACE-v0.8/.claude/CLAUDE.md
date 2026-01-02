@@ -41,15 +41,16 @@ AI-Workspace/
 
 ```
 20-created/
-└── 21-ideas/          ← 아이디어, 기획
+├── 21-ideas/          ← 아이디어, 기획
+└── 22-reading-notes/  ← 독서노트 (책, 논문)
 ```
 
 ### 30-collected (외부에서 가져온 것)
 
 ```
 30-collected/
-├── 31-web-clips/      ← 웹 아티클, SNS
-├── 32-readings/       ← 책, PDF, 논문
+├── 31-web-scraps/     ← 웹 스크래핑 결과물
+├── 32-youtube/        ← YouTube 자막 추출물
 └── 33-news/           ← 뉴스 브리핑
 ```
 
@@ -80,11 +81,22 @@ AI-Workspace/
 |--------|------|-----------|
 | `/10-project-roadmap` | 프로젝트 로드맵 | `10-working/[프로젝트]/` |
 | `/21-idea-note` | 아이디어 노트 생성 | `20-created/21-ideas/` |
-| `/31-web-clip` | 웹 콘텐츠 정리 | `30-collected/31-web-clips/` |
-| `/32-reading-note` | 독서 노트 생성 | `30-collected/32-readings/` |
+| `/22-reading-note` | 독서 노트 생성 | `20-created/22-reading-notes/` |
 | `/33-news-briefing` | 뉴스 브리핑 정리 | `30-collected/33-news/` |
 | `/51-daily-note` | 오늘 Daily Note 생성 | `50-periodic/51-daily/` |
 | `/52-weekly-note` | 이번 주 Weekly Note 생성 | `50-periodic/52-weekly/` |
+
+---
+
+## 스킬 기본 저장 경로
+
+| 스킬 | 기본 저장 경로 | 비고 |
+|------|---------------|------|
+| YouTube 자막 | `30-collected/32-youtube/` | 고정 |
+| 웹 스크래핑 | `30-collected/31-web-scraps/` | 고정 |
+| PDF Reader | 원본 PDF 위치 | 용도에 따라 질문 |
+| Notion 다운로드 | `10-working/{프로젝트}/notion/` | 프로젝트 선택 |
+| GDrive 다운로드 | `10-working/{프로젝트}/gdrive/` | 프로젝트 선택 |
 
 ---
 

@@ -67,7 +67,7 @@ python .claude\skills\_education_skills\youtube_subtitle_eduv\scripts\yt_sub_ext
   - 속도 빠르고 안정적
   - Rate Limit 회피 가능
   - 자막 + 메타 정보 전체 저장 (언어, 번역 가능 여부, 사용 가능한 자막 목록 등)
-  - 출력: `50_resources/57_youtube_CA/YYYYMMDD_<videoId>_transcript.json`
+  - 출력: `30-collected/32-youtube/YYYYMMDD_<videoId>_transcript.json`
 
 **실행:**
 ```powershell
@@ -82,9 +82,11 @@ python ".claude\skills\_education_skills\youtube_subtitle_eduv\scripts\yt_sub_ex
 
 모든 스크립트는 다음 경로에 저장합니다:
 ```
-50_resources/57_youtube_CA/
+30-collected/32-youtube/
 └── YYYYMMDD_<videoId>_transcript.json # 자막
 ```
+
+> **기본 저장 경로**: `30-collected/32-youtube/`
 
 ## 🛠️ 트러블슈팅
 
