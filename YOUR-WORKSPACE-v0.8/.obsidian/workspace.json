@@ -1,0 +1,235 @@
+{
+  "main": {
+    "id": "50d65b5333a0bd40",
+    "type": "split",
+    "children": [
+      {
+        "id": "5498f9bd4c1900ad",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "086e4c95b5273c25",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "새 탭"
+            }
+          }
+        ]
+      },
+      {
+        "id": "0d9b1bd6f23f8d1f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d05b9c835c0123c9",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "그래프 뷰"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "dde8bda66a546e6c",
+    "type": "split",
+    "children": [
+      {
+        "id": "754a6178079e540c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f3e83a7f6390a9e6",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "파일 탐색기"
+            }
+          },
+          {
+            "id": "e27a33ce5ba0ad8d",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "검색"
+            }
+          },
+          {
+            "id": "ae496354397b0221",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "북마크"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "cc983ac5b33ac319",
+    "type": "split",
+    "children": [
+      {
+        "id": "c1cad0daaaca9951",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8197f0dbbaea7d2b",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "백링크"
+            }
+          },
+          {
+            "id": "bc5c7fa325d076e6",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "나가는 링크"
+            }
+          },
+          {
+            "id": "3862bd0261af3cf9",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "태그"
+            }
+          },
+          {
+            "id": "a02ec3247cc3c56a",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "모든 속성"
+            }
+          },
+          {
+            "id": "6dab4c77785855ef",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "환영합니다!.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "환영합니다! 의 개요"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:빠른 전환기 열기": false,
+      "graph:그래프 뷰 열기": false,
+      "canvas:새 캔버스 만들기": false,
+      "daily-notes:오늘의 일일 노트 열기": false,
+      "templates:템플릿 삽입": false,
+      "command-palette:명령어 팔레트 열기": false,
+      "bases:새 베이스 생성하기": false
+    }
+  },
+  "active": "f3e83a7f6390a9e6",
+  "lastOpenFiles": [
+    "temp/91_temp_create_files/naver_blog_result.md",
+    "temp/91_temp_create_files/naver_blog_scraper.py",
+    "temp/91_temp_create_files",
+    "temp",
+    "50-periodic/51-daily",
+    "README.md",
+    "50-periodic/weekly",
+    "50-periodic/daily",
+    "50-periodic",
+    "40-archive",
+    "30-collected/33-news",
+    "30-collected/32-readings",
+    "00-templates/weekly-template.md",
+    "00-templates/web-clip-template.md",
+    "00-templates/reading-template.md",
+    "00-templates/news-template.md",
+    "00-templates/idea-template.md",
+    "00-templates/daily-template.md",
+    "AI-Workspace-whole/00-templates/idea-template.md",
+    "AI-Workspace-whole/00-templates/weekly-template.md",
+    "AI-Workspace-whole/00-templates/web-clip-template.md",
+    "AI-Workspace-whole/00-templates/reading-template.md",
+    "AI-Workspace-whole/00-templates/news-template.md",
+    "AI-Workspace-whole/00-templates/daily-template.md",
+    "AI-Workspace-whole/README.md",
+    "수업자료-떠먹여주는 워크스페이스 GitHub 공유용-정혜지/AI-Workspace-w1/00-templates/weekly-template.md",
+    "수업자료-떠먹여주는 워크스페이스 GitHub 공유용-정혜지/AI-Workspace-w1/00-templates/web-clip-template.md",
+    "수업자료-떠먹여주는 워크스페이스 GitHub 공유용-정혜지/AI-Workspace-w1/00-templates/reading-template.md",
+    "수업자료-떠먹여주는 워크스페이스 GitHub 공유용-정혜지/AI-Workspace-w1/00-templates/news-template.md",
+    "수업자료-떠먹여주는 워크스페이스 GitHub 공유용-정혜지/AI-Workspace-w1/00-templates/meeting-template.md",
+    "수업자료-떠먹여주는 워크스페이스 GitHub 공유용-정혜지/AI-Workspace-w1/00-templates/idea-template.md",
+    "수업자료-떠먹여주는 워크스페이스 GitHub 공유용-정혜지/AI-Workspace-w1/00-templates/daily-template.md",
+    "수업자료-떠먹여주는 워크스페이스 GitHub 공유용-정혜지/AI-Workspace-w1/VERSION.md",
+    "수업자료-떠먹여주는 워크스페이스 GitHub 공유용-정혜지/AI-Workspace-w1/README.md",
+    "수업자료-떠먹여주는 워크스페이스 GitHub 공유용-정혜지/AI-Workspace-whole/00-templates/weekly-template.md",
+    "수업자료-떠먹여주는 워크스페이스 GitHub 공유용-정혜지/AI-Workspace-whole/00-templates/web-clip-template.md"
+  ]
+}
